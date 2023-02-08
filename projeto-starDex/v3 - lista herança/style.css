@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.um-header-legal {
+  font-size: 45px;
+}
+
+.opcao {
+  background-color: #adb493;
+  border: 1px solid grey;
+  margin: 10px;
+  width: 80%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.opcao:hover {
+  background-color: #969677;
+}
