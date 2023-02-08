@@ -53,6 +53,17 @@ html, body {
 
 JS
 ```js
+class DivComTexto {
+  constructor(texto) {
+    this._div = document.createElement('div');
+    this._div.innerText = texto;    
+  }
+
+  getDiv() {
+    return this._div;
+  }
+}
+
 class DivComFundo extends DivComTexto {
   constructor(texto) {
     super(texto);
