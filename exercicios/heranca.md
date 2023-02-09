@@ -96,4 +96,45 @@ document.body.appendChild(textoBotao.getDiv());
 textoBotao.addEstilo();
 ```
 
+JS com clousure
+```js
+function divCreator() {
+  let div;
+
+  function criarDiv(texto) {
+    div = document.createElement('div');
+    div.innerText = texto;
+    return div;
+  }
+
+  function addEstilo(isButton) {
+    if (isButton) {
+      div.classList.add('estilo-botao');
+    } else {
+      div.classList.add('um-estilo-bacana');
+    }
+  }
+
+  return {
+    criarDiv,
+    addEstilo,
+  }
+}
+
+
+const textoSimples = divCreator();
+const divSimples = textoSimples.criarDiv('Um texto qualquer dentro da div');
+document.body.appendChild(divSimples);
+
+const textoComFundo = divCreator();
+const divComFundo = textoComFundo.criarDiv('Um texto com fundo');
+document.body.appendChild(divComFundo);
+textoComFundo.addEstilo();
+
+const textoBotao = divCreator();
+const divBotao = textoBotao.criarDiv('Uma div que se parece um botão');
+document.body.appendChild(divBotao);
+textoBotao.addEstilo(true);
+```
+
   
