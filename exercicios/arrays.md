@@ -1,12 +1,12 @@
 #Exercícios arrays
 ## forEach
 1. Dado o array [1,3,5,7,9,11,13,15] imprima todos os elementos usando:
-   1. for convencional
-   2. for of
+   1. for convencional (opcional)
+   2. for of (opcional)
    3. forEach
 2. Dado o array [{ nome: 'Luis', idade: 45 }, { nome: 'Karina', idade: 43 }, { nome: 'Pedro', idade: 12 }, { nome: 'João', idade: 6 }] imprima para cada item "Meu nome é <item.nome> e tenho <item.idade> anos" usando:
-   1. for convencional
-   2. for of
+   1. for convencional (opcional)
+   2. for of (opcional)
    3. forEach
 3. Dado o array \[[1,2,3,4,5], [6,7,8,9,10], [11,12,13,14,15]] imprima todos os elementos internos usando o forEach
 4. 1. Dado o array [1,3,5,7,9,11,13,15] imprima o elemento e a posição dele no array usando o forEach
@@ -14,42 +14,42 @@
 ## filter
 
 1. Dado o array [10,5,60,3,55,70,21,30] faça um array com os itens que tenham o valor maior ou igual a 21. Para isto você de fazer versões:
-   1. usando o forEach
+   1. usando o forEach (opcional)
    2. usando o filter
 2. Dado o array [{ nome: 'Luis', idade: 45 }, { nome: 'Karina', idade: 43 }, { nome: 'Pedro', idade: 12 }, { nome: 'João', idade: 6 }] filtre os elementos que possuam idade superior a 18. Você deve usar o filter.
 
 ## find
 
 1. Dado o array [10,5,60,3,55,70,21,30] encontre o número 70. Você deve implentar dois algoritmos distintos usando:
-   1. forEach
+   1. forEach (opcional)
    2. find
 2. Crie uma função que recebe dois parâmetros. O primeiro é um array e o segundo o elemento que deseja buscar. Se encontrar deve retornar o elemento, caso não encontre deve voltar undefined.
 
 ## every
 
 1. Dado o array [1,3,5,7,9,11,13,15] verifique se **todos** os números são impares. Faça duas implementações usando:
-   1. forEach
+   1. forEach (opcional)
    2. every
 2. Dado o array [1,3,5,7,9,12,13,15] verifique se **todos** os números são impares usando o every.
 
 ## some
 
 1. Dado o array [1,3,5,7,9,11,13,15] verifique se **algum** o número é par. Faça duas implementações usando:
-   1. forEach
+   1. forEach (opcional)
    2. some
 2. Dado o array [1,3,5,7,9,12,13,15] verifique se **algum** o número é par usando o some.
 
 ## map
 
 1. Dado o array [{ nome: 'Luis', idade: 45 }, { nome: 'Karina', idade: 43 }, { nome: 'Pedro', idade: 12 }, { nome: 'João', idade: 6 }], faça um array que contenha apenas os valores dos nomes. Faça duas implementações usando:
-   1. forEach
+   1. forEach (opcional)
    2. map
 2. Dado o array [{ nome: 'Luis', idade: 45 }, { nome: 'Karina', idade: 43 }, { nome: 'Pedro', idade: 12 }, { nome: 'João', idade: 6 }], faça um array que contenha para cada item a string "Meu nome é <item.nome> e tenho <item.idade> anos" usando o map.
 
 ## reduce
 
 1. Dado o array [{ nome: 'Luis', idade: 45 }, { nome: 'Karina', idade: 43 }, { nome: 'Pedro', idade: 12 }, { nome: 'João', idade: 6 }], calcule o total das idades dos itens. Faça duas implementações usando:
-   1. forEach
+   1. forEach (opcional)
    2. reduce
 2. Dado o array [7,9.3,6.8,8,10,3.5] calcule usando o reduce a média simples dos valores.
 
